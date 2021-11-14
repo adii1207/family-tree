@@ -1,0 +1,80 @@
+create_Node king_shan
+SET_GENDER king_shan male
+create_Node queen_anga
+SET_GENDER queen_anga female
+wife king_shan queen_anga
+husband queen_anga king_shan
+create_Node Chit
+ADD_CHILD queen_anga Chit male
+create_Node Ish
+ADD_CHILD queen_anga Ish male
+create_Node Vich
+ADD_CHILD queen_anga Vich male
+create_Node Aras
+ADD_CHILD queen_anga Aras male
+create_Node Satya
+ADD_CHILD queen_anga Satya female
+create_Node Amba
+SET_GENDER Amba female
+create_Node Lika
+SET_GENDER Lika female
+create_Node Chitra
+SET_GENDER Chitra female
+create_Node Vyan
+SET_GENDER vyan male
+wife Chit Amba
+husband Amba Chit
+wife Vich Lika
+husband Lika Vich
+wife Aras Chitra
+husband Chitra Aras
+wife Vyan Satya
+husband Satya Vyan
+create_Node Dritha
+create_Node Tritha
+create_Node Vritha
+ADD_CHILD Amba Dritha female
+ADD_CHILD Amba Tritha female
+ADD_CHILD Amba Vritha male
+create_Node Jaya
+SET_GENDER Jaya male
+husband Dritha Jaya
+wife Jaya Dritha
+create_Node Yodhan
+ADD_CHILD Dritha Yodhan male
+create_Node Vila
+create_Node Chika
+ADD_CHILD Lika Vila female
+ADD_CHILD Lika Chika female
+create_Node Jnki
+create_Node Ahit
+ADD_CHILD Chitra Jnki female
+ADD_CHILD Chitra Ahit male
+create_Node Arit
+SET_GENDER Arit male
+husband Jnki Arit
+wife Arit Jnki
+create_Node Laki
+create_Node Lavnya
+ADD_CHILD Jnki Laki male
+ADD_CHILD Jnki Lavnya female
+create_Node Asva
+create_Node Vyas
+create_Node Atya
+ADD_CHILD Satya Asva male
+ADD_CHILD Satya Vyas male
+ADD_CHILD Satya Atya female
+create_Node Satvy
+SET_GENDER Satvy female
+wife Asva Satvy
+husband Satvy Asva
+create_Node Vasa
+ADD_CHILD Satvy Vasa male
+create_Node Krpi
+SET_GENDER Krpi female
+wife Vyas Krpi
+husband Krpi Vyas
+create_Node Kriya
+create_Node Krithi
+ADD_CHILD Krpi Kriya male
+ADD_CHILD Krpi Krithi female 
