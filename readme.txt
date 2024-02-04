@@ -1,4 +1,4 @@
-Please read this before running the familyTree.cpp.
+Please read this before running the familyTree.
 
 We are using familyData.txt to add the basic family tree.
 User can add there queries in the userData.txt.
